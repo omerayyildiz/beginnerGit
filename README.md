@@ -11,8 +11,7 @@ and move the `.git_engine` folder and `beginnerGit.sh` file to the main director
 # How to use?
 Open terminal and type this command:
 ```bash
-cd [YOUR_PROJECT_PATH_HERE]
-bash beginnerGit.sh
+cd [YOUR_PROJECT_PATH_HERE] && bash beginnerGit.sh
 ```
 
 # Configurations
