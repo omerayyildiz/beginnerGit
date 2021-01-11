@@ -5,7 +5,6 @@ red=`tput setaf 1`
 cyan=`tput setaf 6`
 magenta=`tput setaf 5`
 reset=`tput sgr0`
-export NAME="Ömer"
 
 drawLine (){
     for (( i=1; i<=40; i++ ))
