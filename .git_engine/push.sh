@@ -76,4 +76,4 @@ sleep 1 && clear
 cd ..
 git add .
 git commit -m "$COMMIT"
-git push -u origin master
+git push
