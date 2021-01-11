@@ -62,7 +62,7 @@ read -p "${yellow}What kind of change did you make?:${reset}" SELECTION
     
         else
             echo "Please enter a number up to eight!"
-            sleep 2 && clear
+            sleep 1 && clear
         fi
 done
 

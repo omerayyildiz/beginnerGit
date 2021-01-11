@@ -35,7 +35,7 @@ read -p "${cyan}What you wanna do?:${reset}" BRANCHING
   
     else
         echo "Please, input only 1 or 2!"
-        sleep 2 && clear
+        sleep 1 && clear
     
     fi
 done
