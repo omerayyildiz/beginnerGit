@@ -24,15 +24,14 @@ read -p "${cyan}What you wanna do?:${reset}" BRANCHING
     if [[ $BRANCHING == 1 ]]; then
         clear && bash sync.sh
 
-    elif [[ $BRANCHING == 2 ]]; then
-        clear && bash push.sh
+        elif [[ $BRANCHING == 2 ]]; then
+            clear && bash push.sh
 
-    elif [[ $BRANCHING == 3 ]]; then
-        clear && git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        elif [[ $BRANCHING == 3 ]]; then
+            clear && git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   
-    else
-        echo "Please, input only 1 or 2!"
-        sleep 1 && clear
-    
+        else
+            echo "Please, input only 1 or 2!"
+            sleep 1 && clear
     fi
 done
