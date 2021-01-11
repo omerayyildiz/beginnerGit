@@ -15,8 +15,6 @@ drawLine (){
 }
 
 cd .git_engine/
-echo "${yellow}Hello, ${NAME}!${reset}"
-sleep 1 && clear
 
 while [[ $BRANCHING != 1 && $BRANCHING != 2 && $BRANCHING != 3 ]]
 do
