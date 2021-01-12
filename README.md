@@ -1,12 +1,12 @@
 # Git Manager For Beginner
 ## How to install?
 
-Clone this repo to your computer first.
+Firstly, clone this repo to your computer with the command below.
 
 ```bash
 git clone https://github.com/omerayyildiz/beginnerGit.git
 ```
-and move the `.git_engine` folder and `beginnerGit.sh` file to the main directory of the your project.
+Afterwards, move the `.git_engine` folder and `beginnerGit.sh` file to the main directory of your project.
 
 # How to use?
 Open terminal and type this command:
