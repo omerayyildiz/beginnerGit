@@ -21,8 +21,7 @@ semanticCommit (){
       fi     
 }
 
-while [[ $SELECTION != 1 && $SELECTION != 2 && $SELECTION != 3 && $SELECTION != 4 && $SELECTION != 5 && $SELECTION != 6 && $SELECTION != 7 && $SELECTION != 8 ]]
-do
+while [[ $SELECTION -lt 1 || $SELECTION -gt 8 ]]; do
 
 printf "${yellow}1. Adding something\n${reset}"
 printf "${yellow}2. Deleting folder or file\n${reset}"
