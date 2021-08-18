@@ -35,8 +35,8 @@ printf "${yellow}$(drawLine)\n${reset}"
 
 read -p "${yellow}What kind of change did you make?:${reset}" SELECTION
     
-    if [[ $SELECTION == 1 ]]; then
-        COMMIT_HEADER="add:"
+        if [[ $SELECTION == 1 ]]; then
+            COMMIT_HEADER="add:"
 
         elif [[ $SELECTION == 2 ]]; then
             COMMIT_HEADER="delete:"

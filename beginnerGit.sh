@@ -15,8 +15,7 @@ drawLine (){
 
 cd .git_engine/
 
-while [[ $BRANCHING != 1 && $BRANCHING != 2 && $BRANCHING != 3 ]]
-do
+while [[ $SELECTION -lt 1 || $SELECTION -gt 3 ]]; do
 
 printf "${cyan}1. Pull Changes\n2. Commit New Changes\n${red}3. Print Log${reset}\n$(drawLine)\n${reset}"
 read -p "${cyan}What you wanna do?:${reset}" BRANCHING
